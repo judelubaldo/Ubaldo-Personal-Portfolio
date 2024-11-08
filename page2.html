@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/441af7671f.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="LOGO.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+    </div>
+</div>
+
+<!------------- Page 2 Content -------------->
+<div id="section1" class="container">
+    <h1>A Glimpse of Me</h1>
+    <p>Below are some of my interest and hobbies that shaped me to who I am today.</p>
+</div>
+
+<!-----------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Five.jpg">
+                <div class="layer">
+                    <h3>Christian Companions</h3>
+                    <p>I have been blessed with Christian friends who consistently 
+                        encourage me in faith and inspire me to grow spiritually. 
+                        Their support and love reflect the grace and kindness of God in my life.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Five.1.jpg">
+                <div class="layer">
+                    <h3>Worship Leader</h3>
+                    <p>As a worship leader, you guide others into a deeper connection with God 
+                        through music and praise. As I always say 'for an audience of One'.
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Five.2.jpg">
+                <div class="layer">
+                    <h3>Nature Trip</h3>
+                    <p>
+                        I also started going on nature trips, particularly towards the end of the pandemic.
+                        The security in our province wasn’t very strict at that time, 
+                        which allowed us to travel freely.   
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Six.jpg">
+                <div class="layer">
+                    <h3>Into Music and Singing</h3>
+                    <p>At a young age I was really into singing and music. The skill and talent
+                        that I have I used it for church ministry. 
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Six.1.jpg">
+                <div class="layer">
+                    <h3>Photography</h3>
+                    <p>Whenever I see landscapes there is something in me that wants to capture it.
+                        I was also part of photography club back in high-school which somehow 
+                        developed my knowledge and skills in photography and editing. 
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Seven.png">
+                <div class="layer">
+                    <h3>Ball Sports</h3>
+                    <p>My main sports is Taekwondo, Basketball and Volleyball. Growing up I was
+                        already exposed to sports.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------PERSPECTIVE----------------->
+<div id="personalme">
+    <div class="container">
+        <h1 class="sub-title">Perspective</h1>
+        <div class="personal-list">
+            <div class="personal">
+                <img src="A.png">
+                <div class="layero">
+                    <h3>Grace</h3>
+                    <p>Who I am today and all that I have is not solely a result of my own efforts, but by the Grace of God.
+                    </p>
+                </div>
+            </div>
+            <div class="personal">
+                <img src="B.png">
+                <div class="layero">
+                    <h3>PEACE</h3>
+                    <p>I've come to realize that it's best to release things beyond our control, as worrying only robs us of peace—and peace is so rare to find these days.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------- Back to Home Button ------------->
+<div class="back-home">
+    <a href="index.html" class="btn btn2">Back to Home</a>
+</div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
